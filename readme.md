@@ -1,3 +1,1 @@
-##### ts-axios
-
-###### 数据类型
+##### 使用typeScript 重构 axios
