@@ -6,6 +6,7 @@ export default function xhr(config: AxiosRequestConfig): void {
   const { data = null, url, method = 'get' } = config
 
   const request = new XMLHttpRequest()
+  console.log('data', data)
   request.open(method.toUpperCase(), url, true)
   request.send(data)
 }
